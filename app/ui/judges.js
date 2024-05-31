@@ -16,7 +16,7 @@ export default function Judges() {
             src="https://i.imgur.com/9xWRkmY.jpg"
             width={175}
             height={300}
-            alt="First Place Prize Image"
+            alt="Jasper Yu"
           />
           <h2 className="text-3xl font-eb-garamond font-bold text-titleGreen">Jasper Yu</h2>
           <p className="text-md h-24 px-5">
@@ -36,7 +36,7 @@ export default function Judges() {
             src="https://i.imgur.com/YA0mIb6.png"
             width={160}
             height={175}
-            alt="First Place Prize Image"
+            alt="Carlos Monforte"
           />
           <h2 className="text-3xl font-eb-garamond font-bold text-titleGreen">Carlos Monforte</h2>
           <p className="text-md h-24 px-5">
@@ -56,7 +56,7 @@ export default function Judges() {
             src="https://i.imgur.com/m1556Sf.jpg"
             width={190}
             height={300}
-            alt="First Place Prize Image"
+            alt="Francis Lee"
           />
           <h2 className="text-3xl font-eb-garamond font-bold text-titleGreen">Francis Lee</h2>
           <p className="text-md h-24 px-5">

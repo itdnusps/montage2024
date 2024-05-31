@@ -6,27 +6,27 @@ import Popup from "reactjs-popup";
 export default function EnterContest() {
   return (
     <div className="flex flex-col items-center" id="EnterContest">
-      <h1 className="text-4xl font-eb-garamond font-bold text-titleGreen">How to Participate</h1>
+      <h1 className="text-4xl font-eb-garamond font-bold text-titleGreen">
+        How to Participate
+      </h1>
       <p className="text-xl p-3">
         1. Download and create an account on the Klick Photography App.
       </p>
       <div className="p-3 flex flex-col lg:flex-row">
         <a
-          href="https://i.imgur.com/W8MGgXB.jpeg"
+          href="https://apps.apple.com/sg/app/klick-photo-sharing/id1673602702"
           target="_blank">
           <Image
-            src="/klick-appstore-qr.jpg"
+            src="https://i.imgur.com/W8MGgXB.jpeg"
             alt="QR Code 1"
             width={300}
             height={300}
             className="lg:mr-5 mb-5 lg:mb-0"
           />{" "}
         </a>
-        <a
-          href="https://i.imgur.com/SYIVLJP.jpeg"
-          target="_blank">
+        <a href="https://play.google.com/store/apps/details?id=sg.klick.android" target="_blank">
           <Image
-            src="/klick-playstore-qr.jpg"
+            src="https://i.imgur.com/SYIVLJP.jpeg"
             alt="QR Code 2"
             width={300}
             height={300}
