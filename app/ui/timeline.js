@@ -19,7 +19,7 @@ export default function Timeline() {
                 Portraiture & Lighting Workshop
               </h1>
               <Image
-                src="https://i.imgur.com/GuthkTF.png"
+                src="/ws1-resized.PNG"
                 width={600}
                 height={600}
                 alt="Portrait workshop Image"
