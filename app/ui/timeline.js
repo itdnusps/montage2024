@@ -12,7 +12,7 @@ export default function Timeline() {
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
            pt-5 my-1">
             <div className="col-span-1 flex justify-center items-center mx-5">
-              <h1 className="text-4xl">1 June</h1>
+              <h1 className="text-4xl font-bold">1 June</h1>
             </div>
             <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
               <h1 className="text-3xl mb-3 font-bold">
@@ -53,7 +53,7 @@ export default function Timeline() {
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
            pt-5 my-3">
             <div className="col-span-1 flex justify-center items-center mx-10">
-              <h1 className="text-4xl">15 June</h1>
+              <h1 className="text-4xl font-bold">15 June</h1>
             </div>
             <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
               <h1 className="text-3xl mb-3 font-bold">
@@ -88,11 +88,11 @@ export default function Timeline() {
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
            pt-5 my-3">
             <div className="col-span-1 flex justify-center items-center mx-10">
-              <h1 className="text-4xl">29 June</h1>
+              <h1 className="text-4xl font-bold">29 June</h1>
             </div>
             <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
               <h1 className="text-3xl mb-3 font-bold">
-                Street Photography Workshop
+              Landscape Photography Workshop
               </h1>
               {/* <Image
               src="TBA"
