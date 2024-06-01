@@ -28,7 +28,7 @@ export default function Theme() {
       </h1>
 
       <p className="max-w-[1100px] text-xl mt-7 text-center px-5">
-        NUS Photographic Society's annual Montage photography NUS Photographic
+        NUS Photographic
         Society's annual Montage photography competition is back! From their
         spontaneous adventures to the challenges they overcome, we invite you to
         explore this year's Montage theme <b>"Perspective: Youth in Focus"</b>{" "}
