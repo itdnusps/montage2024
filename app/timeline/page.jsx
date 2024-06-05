@@ -1,5 +1,4 @@
 
-import "@/app/main.css";
 import Timeline from "../ui/timeline";
 
 
