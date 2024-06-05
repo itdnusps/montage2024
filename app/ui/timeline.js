@@ -1,13 +1,41 @@
 "use client";
+
 import "react-vertical-timeline-component/style.min.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Timeline() {
   return (
     <div>
       <section id="Timeline" className="flex justify-center">
-        <div className="flex flex-col items-left w-11/12 lg:w-9/12 max-w-[1200px]">
-          <h1 className="self-center text-5xl mt-4 font-eb-garamond font-bold text-titleGreen">Workshops</h1>
+        <div className="flex flex-col items-left w-11/12 lg:w-9/12 max-w-[1200px] ">
+          <h1 className="self-center text-5xl mt-4 font-eb-garamond font-bold text-titleGreen">Timeline and Workshops</h1>
+          <div
+            className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
+           pt-5 my-1">
+            <div className="col-span-1 flex justify-center items-center mx-5">
+              <h1 className="text-4xl font-bold">25 May</h1>
+            </div>
+            <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
+              <h1 className="text-3xl mb-3 font-bold">
+                The Beginning of Montage 2024
+              </h1>
+              <Image
+                src="/montage-opens.jpg"
+                width={600}
+                height={600}
+                alt="Montage Opens"
+              />
+              <div className="mt-2">
+                <p>
+                  Montage officially launches! You can now submit your entries.
+                </p>
+                <br />
+              </div>
+            </div>
+          </div>
+
+          <hr className="w-full border-2 border-titleGreen m-1 my-3" />
           <div
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
            pt-5 my-1">
@@ -48,6 +76,8 @@ export default function Timeline() {
               </a>
             </div>
           </div>
+
+          <hr className="w-full border-2 border-titleGreen m-1 my-3" />
 
           <div
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
@@ -91,6 +121,8 @@ export default function Timeline() {
             </div>
           </div>
 
+          <hr className="w-full border-2 border-titleGreen m-1 my-3" />
+
           <div
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
            pt-5 my-3">
@@ -125,6 +157,65 @@ export default function Timeline() {
             </a> */}
             </div>
           </div>
+
+          <hr className="w-full border-2 border-titleGreen m-1 my-3" />
+
+
+          <div
+            className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
+           pt-5 my-3">
+            <div className="col-span-1 flex justify-center items-center mx-10">
+              <h1 className="text-4xl font-bold">13 July</h1>
+            </div>
+            <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
+              <h1 className="text-3xl mb-3 font-bold">
+                Montage Competition Submission Deadline
+              </h1>
+              <div className="mt-2">
+                <p>
+                  Last call for entries!
+                </p>
+                <br />
+              </div>
+            </div>
+          </div>
+
+          <hr className="w-full border-2 border-titleGreen m-1 my-3" />
+
+
+          <div
+            className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
+           pt-5 my-3">
+            <div className="col-span-1 flex justify-center items-center mx-10">
+              <h1 className="text-4xl font-bold">27 July</h1>
+            </div>
+            <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
+              <h1 className="text-3xl mb-3 font-bold">
+                Prize Presentation Day
+              </h1>
+              <div className="mt-2">
+                <p>
+                  Join us as we celebrate talent and creativity at our Prize Presentation Day. Exciting awards and recognition await the best entries of the Montage Competition!
+                </p>
+                <br />
+                <p>Stay tuned for more details.</p>
+              </div>
+            </div>
+          </div>
+
+          <hr className="w-full border-2 border-titleGreen m-1 my-3" />
+
+          <div className="flex flex-col items-center justify-center w-full">
+            <Link
+              href="/#Timeline"
+            >
+              <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded m-5">
+                Back to main site
+              </button>
+            </Link>
+          </div>
+
+
         </div>
       </section>
     </div>
