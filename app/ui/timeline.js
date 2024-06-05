@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Timeline() {
   return (
     <div className="pt-[70px]">
-      <section id="Timeline" className="flex justify-center">
+      <section id="TimelineUrl" className="flex justify-center">
         <div className="flex flex-col items-left w-11/12 lg:w-9/12 max-w-[1200px] ">
           <h1 className="self-center text-5xl mt-4 font-eb-garamond font-bold text-titleGreen">Timeline and Workshops</h1>
           <div
