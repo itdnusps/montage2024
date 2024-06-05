@@ -1,10 +1,10 @@
 'use client'
 
 import Image from "next/image";
-import { Link } from "react-scroll";
 import { useState } from 'react';
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
+import Link from "next/link";
 
 
 
@@ -52,10 +52,10 @@ export default function Navbar() {
 
         <div className={`w-full ${isOpen ? 'block' : 'hidden'} lg:flex lg:items-center lg:w-auto`}>
           <ul className="lg:flex lg:space-x-4">
-            <li><a href="#Theme" className="block lg:inline-block text-white p-2 text-center">Theme</a></li>
-            <li><a href="#Judges" className="block lg:inline-block text-white p-2 text-center">Judges</a></li>
-            <li><a href="#Timeline" className="block lg:inline-block text-white p-2 text-center">Timeline</a></li>
-            <li><a href="#FAQ" className="block lg:inline-block text-white p-2 text-center">FAQ</a></li>
+            <li><Link href="/#Theme" className="block lg:inline-block text-white p-2 text-center">Theme</Link></li>
+            <li><Link href="#Judges" className="block lg:inline-block text-white p-2 text-center">Judges</Link></li>
+            <li><Link href="#Timeline" className="block lg:inline-block text-white p-2 text-center">Timeline</Link></li>
+            <li><Link href="#FAQ" className="block lg:inline-block text-white p-2 text-center">FAQ</Link></li>
           </ul>
         </div>
       </div>

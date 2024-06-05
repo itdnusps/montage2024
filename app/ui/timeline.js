@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Timeline() {
   return (
-    <div>
+    <div className="pt-[70px]">
       <section id="Timeline" className="flex justify-center">
         <div className="flex flex-col items-left w-11/12 lg:w-9/12 max-w-[1200px] ">
           <h1 className="self-center text-5xl mt-4 font-eb-garamond font-bold text-titleGreen">Timeline and Workshops</h1>
@@ -26,7 +26,7 @@ export default function Timeline() {
                 height={600}
                 alt="Montage Opens"
               />
-              <div className="mt-2">
+              <div className="mt-2 w-full">
                 <p>
                   Montage officially launches! You can now submit your entries.
                 </p>
@@ -171,14 +171,16 @@ export default function Timeline() {
               <h1 className="text-3xl mb-3 font-bold">
                 Montage Competition Submission Deadline
               </h1>
-              <div className="mt-2">
-                <p>
+              <div className="mt-2 w-full">
+                <p className="">
                   Last call for entries!
                 </p>
                 <br />
               </div>
             </div>
           </div>
+
+  
 
           <hr className="w-full border-2 border-titleGreen m-1 my-3" />
 
