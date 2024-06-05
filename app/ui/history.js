@@ -50,6 +50,9 @@ export default function History() {
           <br/>
           <p className="text-xl">Our society is actively involved in connecting like-minded individuals with a passion for photography to meet and pursue photography together. We plan and organize many courses, workshops, and photo walks to keep members engaged.</p>
         </div>
+
       </div>
+      <hr className="lg:w-2/4 border-2 border-titleGreen m-1 my-5" />
+
     </div>
   );}

@@ -9,6 +9,7 @@ import Navbar from "./ui/navbar";
 import Footer from "./ui/footer";
 import "./main.css"
 import EnterContest from "./ui/entercontest";
+import Sponsor from "./ui/sponsor";
 
 
 // Images https://imgur.com/a/ctjRBeR
@@ -36,6 +37,7 @@ export default function Home() {
       <Judges />
       <Faq />
       <History /> 
+      <Sponsor />
       <Footer />
     </main>
   );}
