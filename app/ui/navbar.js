@@ -57,6 +57,16 @@ export default function Navbar() {
             <li><Link href="/timeline" className="block lg:inline-block text-white p-2 text-center">Timeline</Link></li>
             <li><Link href="#FAQ" className="block lg:inline-block text-white p-2 text-center">FAQ</Link></li>
           </ul>
+          <div className="w-full flex item-center justify-center">
+            <Link
+              href="/timeline"
+            >
+              <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold ml-3 px-5 py-1 rounded self-center">
+                Workshops
+              </button>
+            </Link>
+          </div>
+
         </div>
       </div>
     </nav>
