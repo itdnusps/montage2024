@@ -53,9 +53,9 @@ export default function Navbar() {
         <div className={`w-full ${isOpen ? 'block' : 'hidden'} lg:flex lg:items-center lg:w-auto`}>
           <ul className="lg:flex lg:space-x-4">
             <li><Link href="/#Theme" className="block lg:inline-block text-white p-2 text-center">Theme</Link></li>
-            <li><Link href="#Judges" className="block lg:inline-block text-white p-2 text-center">Judges</Link></li>
-            <li><Link href="/timeline" className="block lg:inline-block text-white p-2 text-center">Timeline</Link></li>
-            <li><Link href="#FAQ" className="block lg:inline-block text-white p-2 text-center">FAQ</Link></li>
+            <li><Link href="/#Judges" className="block lg:inline-block text-white p-2 text-center">Judges</Link></li>
+            <li><Link href="/#Timeline" className="block lg:inline-block text-white p-2 text-center">Timeline</Link></li>
+            <li><Link href="/#FAQ" className="block lg:inline-block text-white p-2 text-center">FAQ</Link></li>
           </ul>
           <div className="w-full flex item-center justify-center">
             <Link
