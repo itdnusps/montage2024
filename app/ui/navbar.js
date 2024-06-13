@@ -21,12 +21,18 @@ export default function Navbar() {
     <nav className="bg-yellow-800 p-1 fixed w-full z-50">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div className="w-full flex justify-between items-center px-5">
-          <Image
-            width={50}
-            height={50}
-            src="https://i.imgur.com/qgUvwa5.png"
-            alt="NUSPS Logo"
-          />
+          <Link
+            href="/"
+          >
+            <Image
+              width={50}
+              height={50}
+              src="https://i.imgur.com/qgUvwa5.png"
+              alt="NUSPS Logo"
+              className="pointer-cursor"
+            />
+          </Link>
+
           <div className="block lg:hidden">
             <button
               onClick={toggleMenu}
