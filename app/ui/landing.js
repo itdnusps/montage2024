@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Landing() {
   return (
@@ -19,7 +21,14 @@ export default function Landing() {
         alt="Overlay Image"
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0"
       />
-  
+
+      <Link
+        href="/timeline"
+      >
+        <button class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded-full fixed bottom-5 right-5 block lg:hidden">          
+          Workshops
+        </button>
+      </Link>
 
     </div>
   );

@@ -67,7 +67,7 @@ export default function Navbar() {
             <Link
               href="/timeline"
             >
-              <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold ml-3 px-5 py-1 rounded self-center">
+              <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold ml-3 px-5 py-1 rounded self-center hidden lg:block">
                 Workshops
               </button>
             </Link>
