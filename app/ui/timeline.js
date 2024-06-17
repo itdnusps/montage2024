@@ -115,11 +115,13 @@ export default function Timeline() {
             </div>
           </div>
 
-          <hr className="w-full border-2 border-titleGreen m-1 my-3" />
+          <hr className="w-full border-2 border-titleGreen m-1 my-3" id="landscape"  
+          />
 
           <div
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
-            pt-5 my-1">
+            pt-5 my-1"
+          >
             <div className="col-span-1 flex justify-center items-center mx-5">
               <h1 className="text-4xl font-bold">29 June</h1>
             </div>
