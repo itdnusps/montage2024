@@ -67,13 +67,10 @@ export default function Timeline() {
                 <p className="font-bold">Venue</p>
                 <p>Haste Studio (6 Ubi Road 1, #02-03, S408726)</p>
               </div>
-              <a
-                href="https://nus.campuslabs.com/engage/submitter/form/start/640774"
-                target="_blank">
-                <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
-                  Sign Up
-                </button>
-              </a>
+ 
+              <button class="bg-gray-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
+                Completed
+              </button>
             </div>
           </div>
 
@@ -111,13 +108,10 @@ export default function Timeline() {
                 <p className="font-bold">Photowalk Venue</p>
                 <p>City Hall/ Bayfront</p>
               </div>
-              <a
-                href="https://nus.campuslabs.com/engage/submitter/form/collectsubmitteridentity/9fef7f56-ea68-47b2-83ac-32375a68b974"
-                target="_blank">
-                <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
-                  Sign Up
-                </button>
-              </a>
+  
+              <button class="bg-gray-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
+                Completed
+              </button>
             </div>
           </div>
 
