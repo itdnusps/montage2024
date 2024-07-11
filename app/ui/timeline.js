@@ -150,39 +150,38 @@ export default function Timeline() {
                 <p className="font-bold">Practical Venue</p>
                 <p>Botanic Garden</p>
               </div>
-              <a
-                href="https://nus.campuslabs.com/engage/submitter/form/collectsubmitteridentity/a2c035ec-6488-4bcd-9a42-aaa8cd0dd0ce"
-                target="_blank">
-                <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
-                  Sign Up
-                </button>
-              </a>
+              <button class="bg-gray-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
+                Completed
+              </button>
             </div>
           </div>
 
           <hr className="w-full border-2 border-titleGreen m-1 my-3" />
 
-
           <div
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
-           pt-5 my-3">
-            <div className="col-span-1 flex justify-center items-center mx-10">
-              <h1 className="text-4xl font-bold">13 July</h1>
+            pt-5 my-1"
+          >
+            <div className="col-span-1 flex justify-center items-center mx-5">
+              <h1 className="text-4xl font-bold">20 July</h1>
             </div>
             <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
               <h1 className="text-3xl mb-3 font-bold">
-                Montage Competition Submission Deadline
+                Landscape Photography Workshop
               </h1>
-              <div className="mt-2 w-full">
-                <p className="">
-                  Last call for entries!
+              <Image
+                src="/deadend.png"
+                width={600}
+                height={600}
+                alt="deadline Image"
+              />
+              <div className="mt-2">
+                <p>
+                  NUSPS Montage 2024's submission deadline has been extened to the 20th of July!
                 </p>
-                <br />
               </div>
             </div>
           </div>
-
-  
 
           <hr className="w-full border-2 border-titleGreen m-1 my-3" />
 
