@@ -6,7 +6,7 @@ import Popup from "reactjs-popup";
 export default function Judges() {
   return (
     <div className="flex flex-col items-center" id="Judges">
-      <hr className="lg:w-2/4 border-2 border-titleGreen m-1 my-3" />
+      {/* <hr className="lg:w-2/4 border-2 border-titleGreen m-1 my-3" /> */}
       <h1 className="self-center text-5xl mt-4 font-eb-garamond font-bold text-titleGreen">Judges</h1>
       <div className="flex flex-row flex-wrap w-full lg:max-w-[85%] items-center justify-center">
         <div
