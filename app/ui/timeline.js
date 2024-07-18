@@ -167,7 +167,7 @@ export default function Timeline() {
             </div>
             <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
               <h1 className="text-3xl mb-3 font-bold">
-                Landscape Photography Workshop
+                Submission Day
               </h1>
               <Image
                 src="/deadend.png"
