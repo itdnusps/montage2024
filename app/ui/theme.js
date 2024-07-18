@@ -34,7 +34,7 @@ export default function Theme() {
         explore this year's Montage theme <b>"Perspective: Youth in Focus"</b>{" "}
         and showcase how the youth of today are shaping tomorrow!
       </p>
-      <p className="text-xl mt-7 text-center px-5 font-bold">Submissions are open now till 13 July 2024!</p>
+      <p className="text-xl mt-7 text-center px-5 font-bold">Submissions are open now till 20 July 2024 (2359hrs)!</p>
       <p className="max-w-[1100px] text-xl mb-7 mt-5 text-center px-5">
         Montage 2024 is for Singaporean citizen and/or currently resides in
         Singapore, aged between 13 to 28.
