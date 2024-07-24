@@ -18,28 +18,35 @@ export default function Sponsor() {
         />
         <Image
           src="/s2.png"
-          alt="Cathay Photo"
+          alt="National Youth Corps"
           width={200}
           height={200}
           className="mb-5 lg:mb-0 mx-10"
         />
         <Image
           src="/s3.png"
-          alt="NYC"
+          alt="Cathay Photo"
           width={200}
           height={200}
           className="mb-5 lg:mb-0 mx-10"
         />
         <Image
+          src="/nuspsa_logo.png"
+          alt="NUS Alumni Photographic Society"
+          width={150}
+          height={150}
+          className="mb-5 lg:mb-0 mx-10"
+        />
+        <Image
           src="/OSA.png"
-          alt="NYC"
+          alt="NUS Office of Student Affairs"
           width={200}
           height={200}
           className="mb-5 lg:mb-0 mx-10"
         />
         <Image
           src="/s5.png"
-          alt="NYC"
+          alt="Stephen Riady Foundation"
           width={200}
           height={200}
           className="mb-5 lg:mb-0 mx-10"
