@@ -73,9 +73,9 @@ export default function Navbar() {
             <Link
               href="/winners"
             >
-              <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold ml-3 px-5 py-1 rounded self-center hidden lg:block">
+              {/* <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold ml-3 px-5 py-1 rounded self-center hidden lg:block">
                 Winners
-              </button>
+              </button> */}
             </Link>
           </div>
 
@@ -86,7 +86,7 @@ export default function Navbar() {
             
             
 
-      {
+      {/* {
       currentPath !== '/winners' && (
         <Link
           href="/winners"
@@ -95,7 +95,7 @@ export default function Navbar() {
             Winners
           </button>
         </Link>
-      )}
+      )} */}
 
     </nav>
   );
