@@ -9,6 +9,7 @@ export default function Page() {
     <div className="mainbkgrd">
       <Navbar />
       Winners will be announced in due time!
+      {/* Trivial change for test */}
       {/* <Winners /> */}
     </div>
   );}
