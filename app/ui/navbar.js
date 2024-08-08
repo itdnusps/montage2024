@@ -5,6 +5,8 @@ import { useState } from 'react';
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 import Link from "next/link";
+import { useRouter, usePathname } from 'next/navigation';
+
 
 
 
@@ -15,6 +17,10 @@ export default function Navbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const router = useRouter();
+  const currentPath =  usePathname();
+
 
 
   return (
@@ -65,16 +71,32 @@ export default function Navbar() {
           </ul>
           <div className="w-full flex item-center justify-center">
             <Link
-              href="/timeline"
+              href="/winners"
             >
               <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold ml-3 px-5 py-1 rounded self-center hidden lg:block">
-                Workshops
+                Winners
               </button>
             </Link>
           </div>
 
+          
+
         </div>
       </div>
+            
+            
+
+      {
+      currentPath !== '/winners' && (
+        <Link
+          href="/winners"
+        >
+          <button class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded-full fixed bottom-5 right-5 block lg:hidden">          
+            Winners
+          </button>
+        </Link>
+      )}
+
     </nav>
   );
 }
