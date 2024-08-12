@@ -74,22 +74,22 @@ export default function Winners() {
           {/* Render Top 3 Winners */}
           {top3Winners.map((winner, index) => (
             <div key={index} className="flex flex-col lg:flex-row items-center justify-center lg:items-start w-full self-center mt-8">
-              <div>
+              <div className="mb-10">
                 <Image
                   src={winner.image}
-                  height={300}
-                  width={300}
+                  height={400}
+                  width={400}
                   alt={`${winner.name} Image`}
                   className="cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105"
                   onClick={() => handleImageClick(winner.image)}
                 />
               </div>
-              <div className="lg:w-1/2 mt-4 lg:mt-0 lg:ml-4">
-                <p className="font-bold text-2xl mb-3">{`${winner.name} | ${winner.title}`}</p>
+              <div className="lg:w-3/4 mt-4 lg:mt-0 lg:ml-10">
+                <p className="font-bold text-2xl mb-5">{`${winner.name} | ${winner.title}`}</p>
                 <p>{winner.description}</p>
                 {winner.judgeComment && (
                   <>
-                    <br />
+                    <br/>
                     <p className="italic"> {`"${winner.judgeComment}"`} </p>
                     <p className="italic"> {`~ ${winner.judge}`} </p>
                   </>
@@ -101,18 +101,18 @@ export default function Winners() {
           {/* Render Honourable Mentions */}
           <div className="flex flex-wrap justify-between items-start w-full self-center mt-8">
             {honourableMentions.map((winner, index) => (
-              <div key={index} className="w-full md:w-1/3 p-2">
+              <div key={index} className="w-full md:w-1/3 p-10">
                 <div className="flex flex-col items-center">
                   <Image
                     src={winner.image}
-                    height={400}
-                    width={400}
+                    height={500}
+                    width={500}
                     alt={`${winner.name} Image`}
                     className="cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105"
                     onClick={() => handleImageClick(winner.image)}
                   />
                   <div className="mt-3">
-                    <p className="font-bold text-2xl mb-3">{`${winner.name} | ${winner.title}`}</p>
+                    <p className="font-bold text-2xl mb-5">{`${winner.name} | ${winner.title}`}</p>
                     <p>{winner.description}</p>
                     {winner.judgeComment && (
                         <>
