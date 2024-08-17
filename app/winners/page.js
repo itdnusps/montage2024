@@ -1,7 +1,7 @@
 
 import Navbar from "../ui/navbar";
 import '@/app/main.css'
-import Winners from "../ui/winners";
+import Winners from "../ui/winnersv2";
 
 
 export default function Page() {
@@ -10,6 +10,6 @@ export default function Page() {
       <Navbar />
       Winners will be announced in due time!
       {/* Trivial change for test */}
-      {/* <Winners /> */}
+      <Winners />
     </div>
   );}

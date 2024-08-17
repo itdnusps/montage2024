@@ -1,5 +1,6 @@
 "use client";
 
+import './styles.css';
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,7 +33,7 @@ export default function Winners() {
       name: "Jun Leong",
       title: "Third Place",
       image: "/3rd.jpg",
-      description: "TBC",
+      description: "Ren Junhao’s photograph captures the essence of exploration and the transformative power of travel. Growing up in China, Junhao was taught to focus solely on studying, leading to a feeling of being lost for many years until completing his undergraduate degree. This photograph reflects his belief that young people should travel, see the world, learn about different cultures, and interact with diverse individuals. Through embracing a world beyond the classroom, they can better understand the life they want to lead and the person they aspire to become.",
       judge: "Francis Lee",
       judgeComment: "There lies a moment of quiet yet attentive capture amid the chaotic juxtaposition architecturally frenzy.",
     },
@@ -84,13 +85,13 @@ export default function Winners() {
                   onClick={() => handleImageClick(winner.image)}
                 />
               </div>
-              <div className="lg:w-3/4 mt-4 lg:mt-0 lg:ml-10">
+              <div className="lg:w-3/4 mt-4 lg:mt-0 lg:ml-10 align-self-center">
                 <p className="font-bold text-2xl mb-5">{`${winner.name} | ${winner.title}`}</p>
-                <p>{winner.description}</p>
+                <p className="text-justify">{winner.description}</p>
                 {winner.judgeComment && (
                   <>
                     <br/>
-                    <p className="italic"> {`"${winner.judgeComment}"`} </p>
+                    <p className="italic text-justify"> {`"${winner.judgeComment}"`} </p>
                     <p className="italic"> {`~ ${winner.judge}`} </p>
                   </>
                 )}
@@ -99,21 +100,22 @@ export default function Winners() {
           ))}
 
           {/* Render Honourable Mentions */}
-          <div className="flex flex-wrap justify-between items-start w-full self-center mt-8">
+          <h1 className="self-center text-5xl mt-4 font-eb-garamond font-bold text-titleGreen">Honourable Mentions</h1>
+          <div className="flex flex-wrap justify-between items-start w-full self-center mt-5">
             {honourableMentions.map((winner, index) => (
-              <div key={index} className="w-full md:w-1/3 p-10">
+              <div key={index} className="w-full md:w-1/3 p-5">
                 <div className="flex flex-col items-center">
                   <Image
                     src={winner.image}
                     height={500}
                     width={500}
                     alt={`${winner.name} Image`}
-                    className="cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105"
+                    className="cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105 pb-2"
                     onClick={() => handleImageClick(winner.image)}
                   />
                   <div className="mt-3">
-                    <p className="font-bold text-2xl mb-5">{`${winner.name} | ${winner.title}`}</p>
-                    <p>{winner.description}</p>
+                    <p className="font-bold text-2xl mb-5 text-center">{`${winner.name}`}</p>
+                    <p className='text-justify'>{winner.description}</p>
                     {winner.judgeComment && (
                         <>
                             <br />
@@ -126,6 +128,7 @@ export default function Winners() {
               </div>
             ))}
           </div>
+
 
           {/* Back to Main Site Button */}
           <div className="flex flex-col items-center justify-center w-full mt-8">
