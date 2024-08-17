@@ -11,6 +11,7 @@ import "./main.css"
 import EnterContest from "./ui/entercontest";
 import Sponsor from "./ui/sponsor";
 import TimelineOverview from "./ui/timelineOverview";
+import Winners from "./ui/winnersv2";
 
 
 // Images https://imgur.com/a/ctjRBeR
@@ -33,6 +34,7 @@ export default function Home() {
       <Navbar />
       <Landing />
       <Theme />
+      {/* <Winners /> */}
       <EnterContest />
       <TimelineOverview />
       <Judges />
