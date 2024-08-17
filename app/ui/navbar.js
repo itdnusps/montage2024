@@ -69,7 +69,7 @@ export default function Navbar() {
             <li><Link href="/#Timeline" className="block lg:inline-block text-white p-2 text-center">Timeline</Link></li>
             <li><Link href="/#FAQ" className="block lg:inline-block text-white p-2 text-center">FAQ</Link></li>
           </ul>
-          <div className="w-full flex item-center justify-center">
+          {/* <div className="w-full flex item-center justify-center">
             <Link
               href="/winners"
             >
@@ -77,7 +77,7 @@ export default function Navbar() {
                 Winners
               </button>
             </Link>
-          </div>
+          </div> */}
 
           
 
@@ -86,7 +86,7 @@ export default function Navbar() {
             
             
 
-      {
+      {/* {
       currentPath !== '/winners' && (
         <Link
           href="/winners"
@@ -95,7 +95,7 @@ export default function Navbar() {
             Winners
           </button>
         </Link>
-      )}
+      )} */}
 
     </nav>
   );
