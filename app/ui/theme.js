@@ -141,7 +141,7 @@ export default function Theme() {
         <p className="text-xl">Joby Compact Action Kit</p>
         <p className="text-2xl mt-3 font-bold">Worth $218</p>
       </div>
-      <hr className="lg:w-2/4 border-2 border-titleGreen m-1 my-3" />
+      {/* <hr className="lg:w-2/4 border-2 border-titleGreen m-1 my-3" /> */}
       {/* Modal structure */}
     </div>
   );
