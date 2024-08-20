@@ -35,8 +35,8 @@ export default function Home() {
       <Landing />
       <Theme />
       <Winners />
-      <EnterContest />
-      <TimelineOverview />
+      {/* <EnterContest /> */}
+      {/* <TimelineOverview /> */}
       <Judges />
       <Faq />
       <History /> 
