@@ -35,7 +35,7 @@ export default function Theme() {
         and showcase how the youth of today are shaping tomorrow!
       </p>
       <p className="text-xl mt-7 text-center px-5 font-bold">
-      Montage 2024 has concluded! Have a look at the winning entries <a href="#Winners" className="text-titleGreen">here</a>!
+      Montage 2024 has concluded! Have a look at the winning entries at the winner's page!
       </p>
       <p className="max-w-[1100px] text-xl mb-7 mt-5 text-center px-5">
         Montage 2024 is for Singaporean citizen and/or currently resides in
