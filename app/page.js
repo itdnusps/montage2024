@@ -34,7 +34,7 @@ export default function Home() {
       <Navbar />
       <Landing />
       <Theme />
-      {/* <Winners /> */}
+      <Winners />
       <EnterContest />
       <TimelineOverview />
       <Judges />

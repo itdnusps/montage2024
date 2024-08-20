@@ -8,6 +8,6 @@ export default function Page() {
   return (
     <div className="mainbkgrd">
       <Navbar />
-      {/* <Winners /> */}
+      <Winners />
     </div>
   );}
