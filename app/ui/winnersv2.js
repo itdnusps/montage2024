@@ -33,7 +33,7 @@ export default function Winners() {
       name: "Jun Leong",
       title: "Third Place",
       image: "/3rd.jpg",
-      description: "Ren Junhao’s photograph captures the essence of exploration and the transformative power of travel. Growing up in China, Junhao was taught to focus solely on studying, leading to a feeling of being lost for many years until completing his undergraduate degree. This photograph reflects his belief that young people should travel, see the world, learn about different cultures, and interact with diverse individuals. Through embracing a world beyond the classroom, they can better understand the life they want to lead and the person they aspire to become.",
+      description: "Jun Leong’s photograph captures the essence of the typical youth in Singapore, deeply focused on shaping their futures. The image portrays a young person studying diligently while an adult, a level below, walks briskly along a road-like path. This contrast symbolises the journey of life, where the youth set their focus on their chosen path, facing unknowns and potentially lonely moments. Through this image, Jun Leong hopes to inspire young people to look forward with optimism, believing in the light at the end of the tunnel and understanding that the path they walk is a journey well worth endeavoring.",
       judge: "Francis Lee",
       judgeComment: "There lies a moment of quiet yet attentive capture amid the chaotic juxtaposition architecturally frenzy.",
     },
